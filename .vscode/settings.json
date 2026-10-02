@@ -1,0 +1,12 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^wsl --status; echo '---'; wsl --list --verbose$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^wsl -d Ubuntu -e bash -lc 'cd /mnt/c/Users/DidaticTag5727/Desktop/homeworks/CS-UY\\\\ 4513/chip/wordguesser && ruby -v && bundle -v && bundle exec rspec spec/wordguesser_game_spec\\.rb'$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
